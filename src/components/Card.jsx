@@ -5,7 +5,7 @@ const Card = ({ title, year, poster }) => {
         <img src={`https://image.tmdb.org/t/p/w500${poster}`}
           alt="image"
           width={"250px"}
-          className="border-2 border-[gray] rounded-[20px] duration-500 hover:scale-110"
+          className="border-2 border-[gray] rounded-[20px] duration-500 hover:scale-110 hover:translate-y-[-20px]"
         />
         <h1 className="font-bold ">{title}</h1>
         <p className="">{year}</p>

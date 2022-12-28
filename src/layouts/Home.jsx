@@ -7,12 +7,11 @@ import Footer from "./Footer"
 
 export default function Home() {
   return (
-    <>
+    <div className='flex justify-center items-center flex-col'>
       <Jumbotron />
       <Popular />
       <Latest />
-
-    </>
+    </div>
 
   )
 }
